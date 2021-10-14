@@ -206,8 +206,8 @@ class HandleRequests(BaseHTTPRequestHandler):
         # ----- Below is the initial code, above is the updated code after setting up get_single_animal--------
 
 
-        """Handles GET requests to the server
-        """
+       # """Handles GET requests to the server
+        #"""
         # Set the response code to 'Ok'
         #self._set_headers(200)
         
@@ -267,8 +267,8 @@ class HandleRequests(BaseHTTPRequestHandler):
 
 
     # ------- below is the old code from before importing json, above is new --------    
-        """Handles POST requests to the server
-        """
+        #"""Handles POST requests to the server
+        #"""
         # Set response code to 'Created'
         #self._set_headers(201)
 
