@@ -42,7 +42,7 @@ def get_all_customers():
         dataset = db_cursor.fetchall()
         for row in dataset:
             customer = Customer(row['id'], row['name'], row['address'],
-                            row['email'], ['password'])
+                            row['email'], row['password'])
             customers.append(customer.__dict__)
 
     return json.dumps(customers)

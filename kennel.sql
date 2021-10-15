@@ -33,6 +33,7 @@ CREATE TABLE `Employee` (
 
 );
 
-SELECT * FROM Location
+SELECT * FROM animal
+
 
 
